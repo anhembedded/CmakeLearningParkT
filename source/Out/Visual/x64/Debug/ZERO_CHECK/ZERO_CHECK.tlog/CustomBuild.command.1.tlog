@@ -1,0 +1,10 @@
+^D:\PROJECT\CMAKELEARNINGPARKT\SOURCE\OUT\VISUAL\CMAKEFILES\269EAA1F2FA5AD1F9F49E90C57B631CA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/Project/CmakeLearningParkT/source -BD:/Project/CmakeLearningParkT/source/Out/Visual --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Project/CmakeLearningParkT/source/Out/Visual/CmakeLearing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

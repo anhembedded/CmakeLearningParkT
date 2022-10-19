@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\mainExe.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\mainExe.dir/objects.a @CMakeFiles\mainExe.dir\objects1.rsp
+mingw32-g++ -g -Wl,--whole-archive CMakeFiles\mainExe.dir/objects.a -Wl,--no-whole-archive -o mainExe.exe -Wl,--out-implib,libmainExe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mainExe.dir\linklibs.rsp
